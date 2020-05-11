@@ -1,0 +1,47 @@
+.auth-form input[type="email"] {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+.auth-form input[type="text"] {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+input[type="tel"] {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+
+/* .auth-form input {
+  margin: 15px auto;
+  font-size: 5px;
+} */
+
+.auth-input {
+  margin: 0px auto;
+  font-size: 0.8rem;
+}
+
+.auth-input-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.input-error {
+  color: red;
+  font-size: 0.6em;
+}
+
+input::placeholder {
+  font-size: 0.8rem;
+}

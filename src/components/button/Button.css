@@ -1,0 +1,101 @@
+.auth-button {
+  background-color: #fcc1ba;
+  width: 100%;
+  border-radius: 50px;
+  font-size: 0.8em;
+  opacity: 1;
+}
+
+.header-button {
+  border-radius: 20px;
+  font-size: 0.8em;
+  min-width: 100px;
+}
+
+.header-button-login {
+  color: pink;
+  border: 1px solid #4a9adc;
+}
+
+.header-button-register {
+  background-color: pink;
+  color: #4a9adc;
+}
+
+.btn {
+  color: #222222;
+}
+
+.auth-google {
+  background-color: "#fff";
+  width: 100%;
+  border-radius: 20px;
+  color: black;
+  font-size: 0.8em;
+  /* border: 1px solid "#ccc" !important; */
+}
+
+.auth-facebook {
+  background-color: #4267b2;
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.auth-twitter {
+  background-color: rgba(29, 161, 242, 1);
+  width: 100%;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 0.8em;
+}
+
+.filter-button {
+  background-color: pink;
+  width: 100%;
+  border-radius: 30px;
+  font-size: 0.8em;
+  padding: 1rem 0.8rem;
+}
+
+.pagination-button {
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  font-size: 0.8rem;
+  padding: 0.6rem 0.8rem;
+  color: #353594;
+}
+
+.pagination-button:hover {
+  background-color: pink;
+  border-color: pink;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+.add-friend-btn {
+  background-color: white;
+  color: black;
+  font-size: 0.6rem;
+  border: 1px solid #ccc !important;
+  height: 25px;
+  width: 60px;
+  align-self: center;
+}
+.add-friend-btn:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 991px) {
+  .header-button {
+    margin-top: 10px;
+  }
+
+  .filter-button {
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+  }
+}

@@ -1,0 +1,46 @@
+.App {
+  margin: 0px 20px;
+  max-width: 1440px;
+  font-family: Nunito sans;
+  font-weight: bolder;
+}
+.font-bold {
+  font-weight: 800;
+}
+
+.bold-600 {
+  font-weight: 600;
+}
+
+.perfect-center {
+  align-self: center;
+}
+
+.color-black {
+  color: black !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* button:hover {
+  color: white !important;
+} */
+.btn:hover {
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 1441px) {
+  .App {
+    margin: 0px auto;
+  }
+}
